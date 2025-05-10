@@ -39,3 +39,5 @@ A simple and fun web-based dice game built using HTML, CSS, and JavaScript.
 ## 🧑‍💻 Author
 
 Built with ❤️ using vanilla HTML, CSS, and JavaScript.
+
+Future Enhancment: enhance the css and the sounds.
