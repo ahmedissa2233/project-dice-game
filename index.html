@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dice Roller Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<audio id="diceSound" src="dice-roll.mp3">
+</audio>
+
+<body>
+  <div class="container">
+
+    <div class="game-rules">
+      <h2>🎯 Game Instructions</h2>
+      <p>Roll two dice and try to get a total of <strong>10</strong> to win!</p>
+      <p>You can roll as many times as you like. Good luck! 🍀</p>
+    </div>
+
+    
+    <div class="game-area">
+      <h1>🎲 Dice Roller</h1>
+      <div class="dice" id="dice">🎲 🎲</div>
+      <div id="win-message" class="win-message"></div>
+      <div class="attempts" id="attempts">Attempts: 0</div>
+      <button class="btn-roll" onclick="rollDice()">Roll Dice</button>
+      <audio id="diceSound" src="dice-roll.mp3"></audio>
+    </div>
+
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
